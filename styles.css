@@ -1,0 +1,98 @@
+*{
+    margin:0;
+   
+}
+#logo > span{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+#navigation{
+    background-color: #6e7479;
+    border-bottom: 5px;
+    border-bottom-color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 7px 10px 7px;
+}
+
+#profileButton > input{
+    height: 40px;  
+    justify-content: flex-end; 
+}
+
+#shoppingCart > input{
+    height: 40px; 
+    justify-content: flex-end;   
+}
+
+#searchField > input{
+    width: 300px;
+    height: 40px;     
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products_part{
+    background-color:#20aaaa;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    justify-content: center; 
+    align-items: center;
+    
+}
+.product_container{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(59, 17, 65);
+    margin: 15px;   
+}
+.product_name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.product_container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product_buttons > input{
+   
+}
+.price{
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #6e7479;
+}
+
+
+
+.footer_buttons{
+    column-count: 2;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    gap:20px
+
+
+}
+.footer .copy{
+    padding: 30px 0 10px;
+    
+}
