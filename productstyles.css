@@ -34,12 +34,33 @@ nav{
     text-align: center;
     margin-bottom: 20px;
 }
-.footer {
+#footer {
     background-color: #6e7479;
 }
+.image_and_specifications_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product_area{
+    padding: 10px 0 20px 20px;
+    background-color: #20aaaa;
+}
 
+.product_specifications > ul > li{ 
+    padding: 10px;
+}
 
+.price{
+    font-size: larger;
+    color: red;
+    text-align: center;
+}
 
+ul{
+    list-style: url('svg/watch.svg');
+}
 .footer_buttons{
     column-count: 2;
 
@@ -47,8 +68,21 @@ nav{
     justify-content: center;
     align-items: center;
 
-    gap:20px
+    gap:20px;
 }
-.footer .copy{
+#footer .copy{
     padding: 30px 0 10px;  
+}
+#number{
+    width: 30px;
+    text-align: center;
+}
+.changing_quantity{
+    text-align: center;
+    margin: 5px;
+}
+.add_to_cart_button{
+    text-align: center;
+    margin: 5px;
+    
 }
